@@ -101,7 +101,7 @@ class TicTacToe
 
     if won?
       winner = @board[won?.first]
-      puts "congratulations, #{{winner}}"
+      puts "congratulations, #{winner}"
     else
       puts 'Something'
     end
