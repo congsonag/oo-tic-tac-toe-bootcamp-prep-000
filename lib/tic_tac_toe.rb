@@ -76,7 +76,6 @@ class TicTacToe
         # skip to next win_combination
         next
       end
-
     end
   end
 
