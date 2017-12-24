@@ -80,5 +80,10 @@ class TicTacToe
     result
   end
 
+  def full?
+    turn_count == @board.size
+  end
+  
+
 
 end
