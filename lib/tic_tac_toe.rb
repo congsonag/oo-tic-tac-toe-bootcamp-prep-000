@@ -2,7 +2,7 @@ class TicTacToe
   def initialize
     @board = Array.new(9, ' ')
   end
-  
+
   WIN_COMBINATIONS = [
     [0, 1, 2],
     [3, 4, 5],
@@ -20,7 +20,7 @@ class TicTacToe
     puts '-' * 11
     puts " #{@board[3]} | #{@board[4]} | #{@board[5]} "
     puts '-' * 11
-    puts " #{@board[6]} | #{@board[7} | #{@board[8] } "
+    puts " #{@board[6]} | #{@board[7]} | #{@board[8]} "
   end
 
 
