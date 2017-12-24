@@ -96,6 +96,19 @@ class TicTacToe
     @board[won?.first] if !won?.nil?
   end
 
+  def play
+    turn until over?
+
+    if won?
+      winner = @board[won?.first]
+      puts "congratulations, #{{winner}}"
+    else
+      puts 'Something'
+    end
+    
+
+  end
+
 
 
 end
