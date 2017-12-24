@@ -39,6 +39,10 @@ class TicTacToe
     position.between?(0, 8) && !position_taken?(position)
   end
 
+  def turn_count
+    @board.select { |token| ['X', 'O'].include?(token)}.size
+  end
+
 
 
 end
