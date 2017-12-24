@@ -102,6 +102,7 @@ class TicTacToe
     if won?
       winner = @board[won?.first] if !won?.nil?
       puts "congratulations, #{winner}"
+      exit
     else
       puts 'Something'
     end
