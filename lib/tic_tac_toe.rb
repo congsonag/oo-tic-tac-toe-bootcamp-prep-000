@@ -31,7 +31,8 @@ class TicTacToe
     @board[index] = token
   end
 
-  def position_taken?(position)
+  def position_taken?(index)
+    ['X', 'O'].include?(@board[index])
     
 
   end
