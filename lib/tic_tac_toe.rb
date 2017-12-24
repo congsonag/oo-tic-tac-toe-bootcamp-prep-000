@@ -47,6 +47,10 @@ class TicTacToe
     turn_count.even? ? 'X' : 'O'
   end
 
+  def turn
+    puts 'Select a position 1-9:'
+
+  end
 
 
 end
