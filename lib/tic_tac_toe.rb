@@ -71,7 +71,7 @@ class TicTacToe
         win_combination.each do |index|
           count += 1 if @board[index] == token
         end
-        result = true if count == 3
+        result = win_combination if count == 3
       else
         # skip to next win_combination
         next
