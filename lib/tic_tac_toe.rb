@@ -106,8 +106,6 @@ class TicTacToe
     else
       puts 'Something'
     end
-
-
   end
 
 
