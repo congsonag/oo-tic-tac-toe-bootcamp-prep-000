@@ -77,7 +77,7 @@ class TicTacToe
         next
       end
     end
-    #result
+    result
   end
 
 
