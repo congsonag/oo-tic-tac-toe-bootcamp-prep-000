@@ -93,7 +93,7 @@ class TicTacToe
   end
 
   def winner
-    @board[won?.first] #if !won?.nil?
+    @board[won?.first] if !won?.nil?
   end
 
 
