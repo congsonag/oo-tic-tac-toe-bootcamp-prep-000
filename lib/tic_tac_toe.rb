@@ -67,7 +67,7 @@ class TicTacToe
       first_index = win_combination.first
       if position_taken?(first_index)
         # count how many x's or o's are shown consecutively
-        token
+        token = board[first_index]
       else
         # skip to next win_combination
         next
