@@ -60,5 +60,21 @@ class TicTacToe
     end
   end
 
+  def won?
+    result = nil
+    WIN_COMBINATIONS.each do |win_combination|
+      count = 0
+      first_index = win_combination.first
+      if position_taken?(first_index)
+        # count how many x's or o's are shown consecutively
+        token
+      else
+        # skip to next win_combination
+        next
+      end
+      
+    end
+  end
+
 
 end
