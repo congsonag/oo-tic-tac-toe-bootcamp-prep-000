@@ -90,6 +90,10 @@ class TicTacToe
 
   def over?
     won? || full?
+  end
+
+  def winner
+    
 
   end
 
