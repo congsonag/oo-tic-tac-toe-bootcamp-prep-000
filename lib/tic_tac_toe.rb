@@ -35,7 +35,7 @@ class TicTacToe
     ['X', 'O'].include?(@board[index])
   end
 
-  def valid_move?
+  def valid_move?(position)
     
   end
 
