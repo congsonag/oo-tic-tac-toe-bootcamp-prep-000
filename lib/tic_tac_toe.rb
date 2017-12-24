@@ -100,12 +100,12 @@ class TicTacToe
     turn until over?
 
     if won?
-      winner = @board[won?.first]
+      winner = @board[won?.first] if !won?.nil?
       puts "congratulations, #{winner}"
     else
       puts 'Something'
     end
-    
+
 
   end
 
